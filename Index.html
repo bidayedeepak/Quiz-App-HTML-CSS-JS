@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <button class="start-quiz-btn">Start Quiz</button>
+    <div class="container">
+      <div class="top-bar">
+        <div class="question-counter">
+          <!-- Insert top bar question count -->
+        </div>
+        <!-- <div class="timer">
+          <span><i class="fa-regular fa-clock"></i></span>
+          <span class="time_left">15</span>
+        </div> -->
+        <div class="time_line"></div>
+      </div>
+      <div class="ques-text">
+        <!-- Insert question here -->
+      </div>
+      <div class="option-div">
+        <!-- Insert options here -->
+      </div>
+      <button class="next-ques-btn click-disable">Next Questions</button>
+    </div>
+    <div class="result-div">
+      <i class="fa-solid fa-crown"></i>
+      <span>You've completed the Quiz!</span>
+      <div class="score">
+        <!-- Insert score here -->
+      </div>
+      <button class="replay-quiz-btn" onclick="location.reload()">
+        Play Again !
+      </button>
+    </div>
+    <script src="Script.js"></script>
+    <script src="Questions.js"></script>
+  </body>
+</html>
